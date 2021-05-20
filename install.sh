@@ -4,7 +4,7 @@ URLBAR=false
 REMOVE=false
 readonly REPO_DIR="$(pwd)"
 # readonly REPO_DIR="$(dirname "$(readlink "${0}")")"
-source "${REPO_DIR}/lib-install.sh"
+source "${REPO_DIR}/bash install.sh"
 
 # Get options.
 while getopts 'c,f:l:u,r' flag; do
